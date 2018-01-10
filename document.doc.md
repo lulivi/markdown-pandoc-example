@@ -2,36 +2,44 @@
 # Just for example purposes, a random lorem ipsum text for the abstract
 header-includes:
     - \usepackage{blindtext}
+
 # Basic variables
 title: 'Title'
 author: Author
 date: \today
 lang: en
 abstract: \blindtext
-# If custom title is commented, pandoc should show the standard title
-# custom-titlepage: titlepage
+
 # Global options
 mainfont: Arial
 monofont: Fira Mono # Checkout https://github.com/tonsky/FiraCode
 fontsize: 11pt
 linestretch: 1
 geometry: "a4paper, top=2.5cm, bottom=2.5cm, left=3cm, right=3cm"
+
+# If custom title is commented, pandoc should show the standard title
+# custom-titlepage: titlepage
+
 # Bibliography file and options
 bibliography: references.bib
 link-citations: true
 # Citation Style Language
 csl: ieee.csl
-# Table of contents
-toc: true
+
 # Number sections
 numbersections: true
-# List of figures
+
+# Table of contents, List of figures, List of tables
+toc: true
 lof: true
-# List of tables
 lot: false
+
 # If there is only latex-style images, uncomment the following line
 # graphics: true
 # graphics-path: /path/to/image/folder
+
+# xcolor package text.
+colorlinks: false
 ---
 
 # Section Example
