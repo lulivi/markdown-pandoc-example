@@ -9,7 +9,7 @@ date: \today
 lang: en
 abstract: \blindtext
 # If custom title is commented, pandoc should show the standard title
-# custom-titlepage: exampletitlepage
+# custom-titlepage: titlepage
 # Global options
 mainfont: Arial
 monofont: Fira Mono # Checkout https://github.com/tonsky/FiraCode
